@@ -1,0 +1,121 @@
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    /* display: inline-block; */
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+    
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    overflow: hidden;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+
+.slider{
+    width: 100%;   
+    background-color:white;
+    height: 60%;
+    margin-top: -30px;
+}
+.slider_item{
+    width: 100%;
+    height: 500px;
+}
+.slider_item1{
+    background-image: url(./content/derevo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    height:140%;
+    }
+.parl{
+    
+    background-color: rgb(20, 95, 160);
+    width: 100px;
+    height: 40px; 
+    float: right;
+    margin-right: 100px;
+    margin-top: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+.button{
+    color: aliceblue;
+    text-decoration: none;
+}
+ 
+.slider_item2{
+    background-image: url(./content/dollar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    
+ }
+ .slider_item3{
+    background-image: url(./content/ugolect.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 49%;
+    
+    
+ }
+ .slider_item4{
+    background-image: url(./content/gold2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:49%;
+    
+ }
+ .slider_item5{
+    background-image: url(./content/neft.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:49%;
+   
+ }
+ .slider_item1,.slider_item2,.slider_item3,.slider_item4,.slider_item5{
+    height:120%;
+ }
+
+ .lorem{
+    float: right;
+    width: 49%;
+    justify-content: center;
+    padding-left: 1%;
+ }
